@@ -1,11 +1,10 @@
 import  { useEffect, useState, } from 'react'
 import { Confetti } from './components/confetti'
-import { Balloons } from './components/baloons'
 import { Cake } from './components/cake'
 import { PartyPopperIcon, CakeIcon, HeartIcon } from 'lucide-react'
  function App() {
   const [showConfetti, setShowConfetti] = useState(false)
-  const [scrollY, setScrollY] = useState(0)
+  const [ setScrollY] = useState(0)
   useEffect(() => {
     // Trigger confetti on load
     setShowConfetti(true)
