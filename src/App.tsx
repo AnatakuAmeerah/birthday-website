@@ -4,7 +4,7 @@ import { Cake } from './components/cake'
 import { PartyPopperIcon, CakeIcon, HeartIcon } from 'lucide-react'
  function App() {
   const [showConfetti, setShowConfetti] = useState(false)
-  const [ setScrollY] = useState(0)
+  const [scrollY, setScrollY] = useState(0)
   useEffect(() => {
     // Trigger confetti on load
     setShowConfetti(true)
