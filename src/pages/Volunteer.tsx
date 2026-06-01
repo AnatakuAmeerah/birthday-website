@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Users, Send } from 'lucide-react';
+import { Users } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';

@@ -1,7 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowRight, BookOpen, Users, Target, Heart } from 'lucide-react';
+import { ArrowRight, BookOpen, Users, Target,  } from 'lucide-react';
 export function Home() {
   return (
     <div className="flex flex-col min-h-screen">

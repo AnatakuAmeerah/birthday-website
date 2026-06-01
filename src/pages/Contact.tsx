@@ -9,7 +9,6 @@ import {
   Mail,
   MapPin,
   Phone,
-  Send,
   Facebook,
   Instagram,
   Linkedin } from

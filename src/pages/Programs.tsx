@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import {
@@ -103,7 +102,7 @@ export function Programs() {
       {/* Programs List */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="space-y-12">
-          {programs.map((program, idx) =>
+          {programs.map((program) =>
           <motion.div
             key={program.id}
             initial={{

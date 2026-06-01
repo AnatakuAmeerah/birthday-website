@@ -3,7 +3,7 @@
 /* Enable config file if you still want it (optional) */
 /* @config "./tailwind.config.js"; */
 
-@theme {
+:root {
   /* 🎨 Colors */
   --color-navy: #0B1F3A;
   --color-gold: #60A5FA;
