@@ -108,13 +108,40 @@ export function Footer() {
               Our Programs
             </h3>
             <ul className="space-y-3">
-              <li className="text-sm text-black">EMF Changemaker Hub</li>
-              <li className="text-sm text-black">EMF Compass Program</li>
+              
               <li className="text-sm text-black">
-                Student Leadership Conference
+                <Link
+                  to="/programs"
+                  className="text-sm text-black hover:text-gray-300 transition-colors">
+                  EMF Changemaker Hub
+                </Link></li>
+              <li className="text-sm text-black">
+                <Link
+                  to="/programs"
+                  className="text-sm text-black hover:text-gray-300 transition-colors">
+                  EMF Compass Program
+                </Link></li>
+              <li className="text-sm text-black">
+                <Link
+                  to="/programs"
+                  className="text-sm text-black hover:text-gray-300 transition-colors">
+                  Student Leadership Conference
+                </Link>
               </li>
-              <li className="text-sm text-black">Science Fair & Pitch</li>
-              <li className="text-sm text-black">Scholarship Program</li>
+              <li className="text-sm text-black">
+                <Link
+                  to="/programs"
+                  className="text-sm text-black hover:text-gray-300 transition-colors">
+                  Science Fair & Pitch
+                </Link>
+              </li>
+              <li className="text-sm text-black">
+                <Link
+                  to="/programs"
+                  className="text-sm text-black hover:text-gray-300 transition-colors">
+                  Scholarship Program
+                </Link>
+              </li>
             </ul>
           </div>
 
