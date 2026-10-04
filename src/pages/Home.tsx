@@ -5,14 +5,14 @@ export function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-navy text-white overflow-hidden">
+      <section className="relative bg-white text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
             src="./IMG_6305.JPG"
             alt="Students collaborating"
             className="w-full h-full object-cover" />
           
-          <div className="absolute inset-0 bg-gradient-to-r from-navy via-navy/90 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-white  to-transparent"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-32 pb-40">
@@ -35,9 +35,9 @@ export function Home() {
             </span> */}
             <h1 className="text-5xl md:text-6xl font-serif text-[#FE6700] font-bold leading-tight mb-6">
               Transforming Lives Through{' '}
-              <span className="text-gold">Mentorship</span> & Education
+              <span className="text-navy">Mentorship</span> & Education
             </h1>
-            <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-xl text-black mb-10 max-w-2xl leading-relaxed">
               We equip young people with knowledge, guidance, scholarships, and
               practical experiences to raise a generation of confident, skilled,
               and socially responsible leaders.
@@ -45,13 +45,13 @@ export function Home() {
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link
                 to="/contact"
-                className="bg-gold hover:bg-gold/90 text-navy px-8 py-4 rounded-md font-semibold text-lg transition-all text-center shadow-lg hover:shadow-gold/20">
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md bg-navy px-7 py-4 text-base font-semibold text-white transition-colors duration-150 hover:bg-navy-soft focus:outline-none focus-visible:ring-2 focus-visible:ring-navy focus-visible:ring-offset-2">
                 
                 Support Our Mission
               </Link>
               <Link
                 to="/about"
-                className="bg-white/10 hover:bg-white/20 border border-white/30 text-white px-8 py-4 rounded-md font-medium text-lg transition-all text-center flex items-center justify-center group">
+                className="group inline-flex items-center justify-center whitespace-nowrap rounded-md border border-navy/20 px-7 py-4 text-base font-semibold text-navy transition-colors duration-150 hover:border-coral hover:text-coral focus:outline-none focus-visible:ring-2 focus-visible:ring-coral focus-visible:ring-offset-2">
                 
                 Learn More
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -62,8 +62,8 @@ export function Home() {
       </section>
 
       {/* Impact Metrics */}
-      <section className="bg-gold py-12 relative z-20 -mt-16 mx-4 sm:mx-6 lg:mx-auto max-w-6xl rounded-xl shadow-xl">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-navy/20">
+      <section className="bg-navy py-12 relative z-20 -mt-16 mx-4 sm:mx-6 lg:mx-auto max-w-6xl rounded-xl shadow-xl">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-white/20">
           <motion.div
             initial={{
               opacity: 0,
@@ -78,10 +78,10 @@ export function Home() {
             }}
             className="p-6">
             
-            <h3 className="text-5xl font-serif font-bold text-navy mb-2">
+            <h3 className="text-5xl font-serif font-bold text-white mb-2">
               1,500+
             </h3>
-            <p className="text-navy/80 font-medium uppercase tracking-wider text-sm">
+            <p className="text-white/80 font-medium uppercase tracking-wider text-sm">
               Students Mentored
             </p>
           </motion.div>
@@ -102,8 +102,8 @@ export function Home() {
             }}
             className="p-6">
             
-            <h3 className="text-5xl font-serif font-bold text-navy mb-2">7</h3>
-            <p className="text-navy/80 font-medium uppercase tracking-wider text-sm">
+            <h3 className="text-5xl font-serif font-bold text-white mb-2">7</h3>
+            <p className="text-white/80 font-medium uppercase tracking-wider text-sm">
               Partner Schools
             </p>
           </motion.div>
@@ -124,8 +124,8 @@ export function Home() {
             }}
             className="p-6">
             
-            <h3 className="text-5xl font-serif font-bold text-navy mb-2">3+</h3>
-            <p className="text-navy/80 font-medium uppercase tracking-wider text-sm">
+            <h3 className="text-5xl font-serif font-bold text-white mb-2">3+</h3>
+            <p className="text-white/80 font-medium uppercase tracking-wider text-sm">
               Years of Impact
             </p>
           </motion.div>

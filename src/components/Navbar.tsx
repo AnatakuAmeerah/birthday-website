@@ -28,7 +28,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   return (
-    <nav className="bg-navy sticky top-0 z-50 shadow-md">
+    <nav className="bg-white sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -48,24 +48,24 @@ export function Navbar() {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors duration-200 ${location.pathname === link.path ? 'text-gold' : 'text-white hover:text-coral'}`}>
+                className={`text-sm font-medium transition-colors duration-200 ${location.pathname === link.path ? 'text-[#FE6700]' : ' hover:text-[#FE6700]'}`}>
               
                 {link.name}
               </Link>
             )}
             <div className="flex items-center space-x-4 ml-4">
-              {/* <Link
+              <Link
                 to="/volunteer"
-                className="text-white border  border-white/40 hover:border-white px-5 py-2 rounded-md text-sm font-medium transition-all">
+                className="text-white border bg-navy  border-white/40 hover:border-navy px-5 py-2 rounded-md text-sm font-medium transition-all">
                 
                 Volunteer
-              </Link> */}
-              {/* <Link
+               </Link> 
+               {/* <Link
                 to="/donate"
                 className="bg-gold hover:bg-gold/90 text-navy px-6 py-2 rounded-md text-sm font-semibold transition-all shadow-sm">
                 
                 Donate
-              </Link> */}
+              </Link> */} 
             </div>
           </div>
 
