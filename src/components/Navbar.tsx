@@ -48,7 +48,7 @@ export function Navbar() {
             <Link
               key={link.name}
               to={link.path}
-                className={`text-sm font-medium transition-colors duration-200 ${location.pathname === link.path ? 'text-[#FE6700]' : ' hover:text-[#FE6700]'}`}>
+                className={`text-sm font-medium transition-colors duration-200 ${location.pathname === link.path ? 'text-gold' : ' hover:text-[#FE6700]'}`}>
               
                 {link.name}
               </Link>
@@ -60,12 +60,12 @@ export function Navbar() {
                 
                 Volunteer
                </Link> 
-               {/* <Link
+                <Link
                 to="/donate"
                 className="bg-gold hover:bg-gold/90 text-navy px-6 py-2 rounded-md text-sm font-semibold transition-all shadow-sm">
                 
                 Donate
-              </Link> */} 
+              </Link> 
             </div>
           </div>
 
@@ -101,7 +101,7 @@ export function Navbar() {
             opacity: 0,
             height: 0
           }}
-          className="md:hidden bg-navy border-t border-white/10">
+          className="md:hidden bg- border-t border-white/10">
           
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {navLinks.map((link) =>
@@ -109,7 +109,7 @@ export function Navbar() {
               key={link.name}
               to={link.path}
               onClick={() => setIsOpen(false)}
-              className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === link.path ? 'text-gold bg-white/5' : 'text-white hover:text-coral hover:bg-white/5'}`}>
+              className={`block px-3 py-2 rounded-md text-base font-medium ${location.pathname === link.path ? 'text-gold bg-gold/5' : 'text-navy hover:text-coral hover:bg-white/5'}`}>
               
                   {link.name}
                 </Link>
@@ -118,17 +118,17 @@ export function Navbar() {
                 <Link
                 to="/volunteer"
                 onClick={() => setIsOpen(false)}
-                className="text-center text-white border border-white/30 px-4 py-2 rounded-md text-base font-medium">
+                className="text-center text-white bg-navy border border-white/30 px-4 py-2 rounded-md text-base font-medium">
                 
                   Volunteer
                 </Link>
-                {/* <Link
+                <Link
                 to="/donate"
                 onClick={() => setIsOpen(false)}
                 className="text-center bg-gold text-navy px-4 py-2 rounded-md text-base font-bold">
                 
                   Donate
-                </Link> */}
+                </Link>
               </div>
             </div>
           </motion.div>
